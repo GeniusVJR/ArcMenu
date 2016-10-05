@@ -21,67 +21,6 @@
 
 	</ListView>
 
-	<com.francis.arcmenu.view.ArcMenu
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			app:position="right_bottom"
-			app:radius="140dp"
-			>
+	<include layout="@layout/menu_right_bottom" />
 
-		<RelativeLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:background="@drawable/composer_button"
-				>
-
-			<ImageView
-					android:id="@+id/id_button"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:layout_centerInParent="true"
-					android:src="@drawable/composer_icn_plus"
-					/>
-
-		</RelativeLayout>
-
-		<ImageView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:src="@drawable/composer_music"
-				android:tag="Music" />
-
-		<ImageView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:src="@drawable/composer_place"
-				android:tag="Place" />
-
-		<ImageView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:src="@drawable/composer_sleep"
-				android:tag="Sleep" />
-
-		<ImageView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:src="@drawable/composer_thought"
-				android:tag="Sun" />
-
-		<ImageView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:src="@drawable/composer_with"
-				android:tag="People" />
-
-	</com.francis.arcmenu.view.ArcMenu>
-
-	<com.francis.arcmenu.view.ArcMenu
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			app:position="left_top"
-			app:radius="130dp"
-			>
-
-	</com.francis.arcmenu.view.ArcMenu>
 </RelativeLayout>
